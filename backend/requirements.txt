@@ -1,0 +1,20 @@
+# Server
+fastapi
+uvicorn[standard]
+httpx
+python-dotenv
+
+# ORM
+greenlet
+sqlalchemy
+
+# Database
+asyncpg
+alembic
+aiosqlite # for unit tests actually
+
+# Cache
+redis
+
+# Web crawler
+beautifulsoup4
