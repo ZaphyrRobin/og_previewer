@@ -4,6 +4,8 @@ This is a fullstack web application to scrape and preview an Open Graph image fr
 Consisting of:
 - A FastAPI + PostgreSQL backend
 - A React.js + Vite frontend
+- Web UI: http://localhost:5173
+- API docs/playground: http://localhost:8000/docs
 
 # Backend - FastAPI + PostgreSQL + Redis
 
