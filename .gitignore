@@ -1,5 +1,37 @@
-# Backend
-backend/venv/
+# OS
+.DS_Store
+Thumbs.db
 
-# Frontend
-/frontend/node_modules/
+# Python
+backend/venv/
+backend/.env
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Node.js
+frontend/node_modules/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Build
+/dist/
+/build/
+
+# Logs
+*.log
+
+# Test
+.coverage
+htmlcov/
+
+# Misc
+.env
+
+frontend/dist/

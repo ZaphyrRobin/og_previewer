@@ -47,10 +47,9 @@ On PostgreSQl cli
 psql -U username -d postgres -c "CREATE DATABASE og_preview;"
 ```
 
-In codebase
+In your local .env, please add
 
 ```
-cd backend
 export DATABASE_URL="postgresql+asyncpg://<username>:<password>@localhost:5432/og_preview"
 ```
 
@@ -133,13 +132,13 @@ ____
 
 ```
 cd frontend
-npm install
+pnpm install
 ```
 
 ### 3. Run the development server
 
 ```
-npm run dev
+pnpm run dev
 ```
 
 Visit UI: http://localhost:5173

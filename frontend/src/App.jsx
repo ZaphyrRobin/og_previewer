@@ -32,7 +32,9 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!url.trim()) return;
+    if (!url.trim()) {
+      return;
+    }
 
     setSubmitting(true);
 
